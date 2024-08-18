@@ -1,0 +1,685 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: blue;
+
+}
+
+#text {
+    color: azure;
+}
+
+div.header {
+    width: 528px, 75px;
+    padding: 25px, 0px;
+}
+
+.header {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    overflow-x: hidden;
+    width: 100%;
+    height: auto;
+    font-family: sans-serif;
+    font-weight: 400;
+    -webkit-text-size-adjust: 100%
+}
+
+div.left {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+div.left img {
+    background-color: azure;
+    /* mix-blend-mode: multiply;  */
+
+}
+
+div.right {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+div.right ul li {
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-width: 1;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-size-adjust: 100%;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%
+        /*list-style: none;
+    width: 417;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;*/
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    width: 600px;
+}
+
+.nav-btn button {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 50px;
+    padding: 15px 20px;
+    background-color: #fdfdfd;
+    color: rgb(7, 7, 7);
+    border: none;
+}
+
+div.container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+    /* width: 528px, 298px; */
+    width: 100%;
+    height: auto;
+    margin: 75px, 24px, 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.container .inner {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    flex-basis: 100rem;
+    width: 100%;
+}
+
+div.inner {
+    width: 100%
+        /* margin: 75px, 48px, 0px, ; */
+}
+
+h1.heading-1 {
+    width: 448px, 158px;
+    font-size: 44px;
+}
+
+.box1 h1 {
+    font-size: 44px;
+    width: 444px;
+    color: azure;
+}
+
+.box1 p {
+    font-size: 24px;
+    width: 444px;
+    color: azure
+}
+
+.box-btn button {
+
+    font-size: 24px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: white;
+    padding: 0;
+    margin-top: 35px;
+}
+
+.box1 h1 {
+    font-size: 44px;
+}
+
+.box2 img {
+    display: flex;
+    justify-content: flex-end;
+    width: 736px;
+    height: auto;
+    padding-left: 50px;
+}
+
+.box1 b {
+    font-size: 24px;
+}
+
+div.footer {
+    width: 100%;
+    height: auto;
+    /* height: 50px; */
+    border-top: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* 
+div.footer ul {
+    display: flex;
+    justify-content: center;
+    box-sizing: inherit;
+    color: #fcfcfc;
+    width: 100%;
+}
+
+ul li {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+} */
+
+.last-pad {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.box-btn1 {
+    font-size: 24px;
+    border-color: #fcfcfc;
+    color: #fcfcfc;
+    background-color: #fcfcfc;
+
+}
+
+.box-btn1 a {
+    border-color: white;
+    color: #fcfcfc;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    width: 250px;
+    /* padding: 8px 20px;
+        margin-top: 35px;*/
+} 
+.box-btn2 a {
+        font-size: 24px;
+        border-color: #fcfcfc;
+        color: #fcfcfc;
+        font-size: 24px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        /* padding: 8px 20px;
+        margin-top: 35px; */
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        width: 250px;
+        /* Ensure buttons take full width */
+    }
+
+
+    @media only screen and (max-width: 345px) {
+        div.inner .box1 h1 {
+            font-size: 70px;
+
+        }
+
+        div.inner .box1 {
+            width: 320px;
+        }
+
+        div.inner .box1 b {
+            font-size: 20px;
+        }
+
+        div.box1 .box-btn button {
+            background-color: green;
+            font-size: 18px;
+        }
+
+        div.tagline strong span {
+            font-size: 16px;
+        }
+
+
+    }
+
+
+
+    @media only screen and (max-width: 576px) {
+
+        div.header {
+            width: 528px, 75px;
+            padding: 25px, 0px;
+        }
+
+        div.tagline p {
+            display: block;
+            box-sizing: inherit;
+            width: 576px, 56px;
+            height: 56px;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            padding-left: 50px;
+        }
+
+        div.tagline span {
+            text-decoration: underline;
+            font-size: 16px;
+        }
+
+        div.tagline strong {
+            font-size: 16px;
+        }
+
+        div.container {
+            display: flex;
+            justify-content: center;
+
+            width: 528px, 298px;
+            margin: 75px, 24px, 0px;
+            padding-top: 200px;
+            padding-bottom: 50px;
+
+        }
+
+        div.container.box1 h1 {
+            width: 528px, 144px;
+            font-size: 80px;
+        }
+
+        .box-btn button {
+
+            font-size: 24px;
+            border: none;
+            border-radius: 50px;
+            color: white;
+            background-color: black;
+            padding: 8px 20px;
+            margin-top: 35px;
+        }
+
+        .box1 h1 {
+            font-size: 80px;
+        }
+
+        .box1 b {
+            font-size: 22px;
+        }
+
+        div.footer {
+            height: 70px;
+            width: 100%;
+            border-top: 1px solid black;
+            margin-top: 45px;
+            margin-bottom: 0px;
+        }
+
+        div.footer ul {
+            display: flex;
+            justify-content: center;
+            box-sizing: inherit;
+            color: #6b6b6b;
+            width: 100%;
+        }
+
+        ul li {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            width: 100%;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        div.header {
+            width: 100%
+        }
+
+        div.right {
+            width: 417px;
+        }
+
+        div.right ul li {
+            width: 417;
+            font-size: 14px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        div.inner {
+            width: 671px, 360px, ;
+            margin: 75px, 48px, 0px, ;
+
+        }
+
+        div.tagline p {
+            display: block;
+            box-sizing: inherit;
+            width: 576px, 56px;
+            height: 56px;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            padding-left: 50px;
+        }
+
+        div.tagline span {
+            text-decoration: underline;
+            font-size: 16px;
+        }
+
+        div.tagline strong {
+            font-size: 16px;
+        }
+
+        div.container {
+            display: flex;
+            justify-content: center;
+            width: 528px, 298px;
+            margin: 75px, 24px, 0px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+
+        }
+
+        div.container.box1 h1 {
+            width: 528px, 144px;
+            font-size: 106px;
+        }
+
+        .box-btn button {
+
+            font-size: 24px;
+            border: none;
+            border-radius: 50px;
+            color: white;
+            background-color: black;
+            padding: 8px 20px;
+            margin-top: 35px;
+        }
+
+        .box1 h1 {
+            font-size: 106px;
+        }
+
+        .box1 b {
+            font-size: 22px;
+        }
+
+        div.footer {
+            height: 50px;
+            width: 100%;
+            border-top: 1px solid black;
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+
+        div.footer ul {
+            display: flex;
+            justify-content: center;
+            box-sizing: inherit;
+            color: #6b6b6b;
+            width: 100%;
+        }
+
+        ul li {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            width: 100%;
+        }
+    }
+
+    @media only screen and (max-width: 727px) {
+
+        div.right ul li:nth-child(1),
+        div.right ul li:nth-child(2),
+        div.right ul li:nth-child(3),
+        div.right ul li:nth-child(4) {
+            display: none;
+        }
+    }
+
+
+    @media only screen and (max-width: 903px) {
+        div.container .box2 {
+            display: none;
+        }
+
+        div.box1 .box-btn button {
+            background-color: green;
+        }
+
+        div.container {
+            display: flex;
+            justify-content: flex-end;
+            width: 903px, 600px;
+            margin-top: 150px;
+        }
+
+        div.main_content {
+            width: 100%;
+            height: 740px;
+        }
+
+        div.footer {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        div.footer ul li:nth-child(6) {
+            visibility: hidden;
+
+        }
+    }
+
+
+    @media only screen and (max-width: 1280px) {
+        .main {
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            font-family: sans-serif;
+            text-rendering: optimizeLegibility;
+            text-size-adjust: 100%;
+            unicode-bidi: isolate;
+            width: 100%;
+        }
+
+        .header {
+            display: flex;
+            box-sizing: border-box;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            padding-left: 25px;
+            padding-right: 25px;
+            overflow-x: hidden;
+            width: 100%;
+            height: auto;
+            font-family: sans-serif;
+            font-weight: 400;
+            -webkit-text-size-adjust: 100%
+        }
+
+        div.left {
+            display: flex;
+            justify-content: flex-start;
+            box-sizing: border-box;
+            cursor: pointer;
+            font-family: sans-serif;
+            font-weight: 400;
+            text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%
+        }
+
+        div.right {
+            display: flex;
+            justify-content: space-between;
+            /* gap: 20px; */
+            color: black;
+            box-sizing: border-box;
+            flex-direction: row;
+            align-items: center;
+            /* width: 500px, 38px; */
+            font-family: sans-serif;
+            font-weight: 400;
+            text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%
+        }
+
+        div.right ul li {
+            border-image-repeat: stretch;
+            border-image-slice: 100%;
+            border-image-width: 1;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            text-size-adjust: 100%;
+            text-decoration-style: solid;
+            text-decoration-thickness: auto;
+            text-rendering: optimizeLegibility;
+            -webkit-text-size-adjust: 100%
+                /*list-style: none;
+        width: 417;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;*/
+        }
+
+        ul {
+            display: flex;
+            justify-content: flex-end;
+            gap: 20px;
+            width: 300px;
+        }
+
+        .nav-btn button {
+            border-radius: 50px;
+            padding: 15px 20px;
+            background-color: black;
+            color: white;
+            border: none;
+        }
+
+        div.container {
+            display: flex;
+            justify-content: center;
+            /* width: 528px, 298px; */
+            width: 100%;
+            height: auto;
+            margin: 75px, 24px, 0px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+
+        }
+
+        .container .inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* margin-top: 100px; */
+            margin-left: 20px;
+            flex-basis: 100rem;
+        }
+
+        div.inner {
+            width: 671px, 360px, ;
+            margin: 75px, 48px, 0px, ;
+        }
+
+        div.container.box1 h1 {
+            width: 528px, 144px;
+            font-size: 106px;
+        }
+
+        .box-btn button {
+
+            font-size: 24px;
+            border: none;
+            border-radius: 50px;
+            color: white;
+            background-color: black;
+            padding: 8px 20px;
+            margin-top: 35px;
+        }
+
+        .box1 h1 {
+            font-size: 106px;
+        }
+
+        .box2 img {
+            display: flex;
+            justify-content: flex-end;
+            width: 460px;
+        }
+
+        .box1 b {
+            font-size: 22px;
+        }
+
+        div.footer {
+            width: 100%;
+            height: auto;
+            /* height: 50px; */
+            border-top: 1px solid black;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        div.footer ul {
+            display: flex;
+            justify-content: center;
+            box-sizing: inherit;
+            color: #6b6b6b;
+            width: 100%;
+        }
+
+        ul li {
+            list-style: none;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            width: 100%;
+        }
+
+    }
